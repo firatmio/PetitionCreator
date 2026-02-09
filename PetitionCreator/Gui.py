@@ -22,6 +22,7 @@ class PetitionCreatorApp(ctk.CTk):
         
         self.title("Sınav İtiraz Dilekçesi Oluşturucu")
         self.geometry("520x680")
+        self.resizable(False, True)
         self.minsize(480, 640)
         
         self._set_app_icon()
@@ -217,3 +218,4 @@ class PetitionCreatorApp(ctk.CTk):
 if __name__ == "__main__":
     app = PetitionCreatorApp()
     app.mainloop()
+
